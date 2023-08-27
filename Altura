@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    float altura;
+
+    printf("Digite a altura em metros: ");
+    scanf("%f", &altura);
+
+    if (altura > 1.8) {
+        printf("Você é um poste.\n");
+    } else {
+        printf("Você é normal, parabéns.\n");
+    }
+
+}
